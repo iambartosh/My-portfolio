@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>Bartosz Zieliński | Web Developer</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,700,800,900" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
+	<meta name="viewport" content="width=device-width">
+	<link rel="Shortcut icon" href="img/hat.png" />
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+
+<body style="overflow-x: hidden">
+
+    <div id="about">
+		<nav id="navigation">
+			<h1 class="header-text"><span>B</span>Z</h1>
+			
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">GitHub</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			
+				<div id="menu-hamb">
+					<div class="hamb1"></div>
+					<div class="hamb2"></div>
+					<div class="hamb3"></div>
+				</div>
+		</nav>
+		
+		<article>
+		
+			<h1 class="hello">Hello!</h1>
+			<p class="hello-about">I'm <span class="hello-about-span">Bartosz Zielinski</span>, and I
+			create websites. <br>I am developing the appearance of the page, <br>
+			but I am also able to program the page to be functional.
+			
+			<p class="wanna-order">Want you order website? <span class="click-span">Click it</span>
+			<a href="mailto:bzzb@interia.pl"><i class="fa fa-comments"></i></a>
+			</p>
+			
+			
+		</article>
+	</div>
+	
+	<div id="offer">
+	
+	  <h3 class="about-me">About</h3>
+	  <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+	  Curabitur eu efficitur augue, quis tristique <br>nulla. Duis laoreet, 
+	  ipsum sed lacinia sagittis,<br>tortor orci accumsan nibh, sit amet commodo
+	  lorem sapien quis leo.<br>
+	  
+	  <h3 class="skills">Skills
+	 
+	 <p class="skills-text">Languages</p>
+	  
+	  <p class="frameworks-text">Frameworks</p>
+	  
+	  <p class="tools-text">Tools</p>
+	  
+	  </h3>
+	  
+	  <ul class="lang-list">
+		   <li>JavaScript</li>
+		   <li>HTML</li>
+		   <li>CSS</li>
+		   <li>C++</li>
+		</ul>
+	  
+	  <ul class="frame-list">
+		   <li>Sass</li>
+		   <li>jQuery</li>
+	  </ul>
+	  
+	  <ul class="tools-list">
+		   <li>GitHub</li>
+		   <li>Mozilla DevTools</li>
+	  </ul>
+	  
+   </div>
+
+	
+	<script src="skrypt.js"></script>
+</body>
+</html>
